@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../../layout/custom_preview.xml" value="0.9067708333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.75" />
+        <entry key="app/src/main/res/layout/dog_intro.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/fragment_dog_detail.xml" value="0.6379781420765027" />
+        <entry key="app/src/main/res/layout/fragment_dog_intro.xml" value="0.5515710382513661" />
+        <entry key="app/src/main/res/layout/fragment_dog_intro2.xml" value="0.6379781420765027" />
+        <entry key="app/src/main/res/layout/item_dog.xml" value="0.5515710382513661" />
+        <entry key="app/src/main/res/layout/search_edit_text.xml" value="0.4298688193743693" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/dog.xml" value="0.9067708333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/dog_round.xml" value="0.9067708333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.9067708333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.9067708333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

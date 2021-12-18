@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dogIntroFragment">
+
+    <fragment
+        android:id="@+id/dogIntroFragment"
+        android:name="com.newera.dog_adoption.DogIntroFragment"
+        tools:layout="@layout/fragment_dog_intro"
+        android:label="DogIntroFragment" >
+        <action
+            android:id="@+id/action_dogIntroFragment_to_dogDetailFragment"
+            app:destination="@id/dogDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dogDetailFragment"
+        android:name="com.newera.dog_adoption.DogDetailFragment"
+        tools:layout="@layout/fragment_dog_detail"
+        android:label="DogDetailFragment" >
+        <argument
+            android:name="dogItem"
+            app:argType="com.newera.dog_adoption.DogItem" />
+    </fragment>
+</navigation>
